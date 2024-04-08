@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Clean",
+    "completed": false,
+    "id": 1
+  },
+  {
+    "title": "Code",
+    "completed": false,
+    "id": 2
+  },
+  {
+    "title": "Study",
+    "completed": true,
+    "id": 3
+  },
+  {
+    "title": "Yoga",
+    "completed": false,
+    "id": 4
+  }
+]
