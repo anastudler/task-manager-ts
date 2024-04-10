@@ -18,5 +18,15 @@
     "title": "Yoga",
     "completed": false,
     "id": 4
+  },
+  {
+    "title": "drink water",
+    "completed": false,
+    "id": 5
+  },
+  {
+    "title": "take out trash",
+    "completed": false,
+    "id": 6
   }
 ]
