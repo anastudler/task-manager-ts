@@ -28,9 +28,18 @@ function App() {
         <button>Add</button>
       </form>
       {tasks.map(task => {
+        async function deleteTask() {
+          try {
+            await taskRepo.delete(task);
+            setTasks(tasks.filter(t => t.id !== task.id));
+          } catch (error: any) {
+            alert(error.message);
+          }
+        }
         return <div key={task.id}>
           <input type="checkbox" checked={task.completed} />
           {task.title}
+          <button onClick={() => deleteTask()}>Delete</button>
         </div>
       })}
     </main>

@@ -20,13 +20,8 @@
     "id": 4
   },
   {
-    "title": "drink water",
+    "title": "Drink water",
     "completed": false,
     "id": 5
-  },
-  {
-    "title": "take out trash",
-    "completed": false,
-    "id": 6
   }
 ]
